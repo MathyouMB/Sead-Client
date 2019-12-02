@@ -1,0 +1,47 @@
+$appGreen: #2FA598;
+.login-page{
+    height:60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.login-page-container-inner{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.login-page-input[type=text] {
+    width: 100%;
+    max-width:80vw;
+    margin:0.5em;
+    padding: 1.3em;
+    font-size: 1.01em;
+    margin:auto;
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+      
+}
+
+.login-page-button{
+    
+    display: inline-block;
+    border-radius: 6px;
+    background-color: $appGreen;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    margin:auto;
+    margin-top:3em;
+}
+
+.login-page-button:hover{
+    box-shadow: 0 0 5px $appGreen;
+}

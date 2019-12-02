@@ -1,0 +1,65 @@
+$appGreen: #2FA598;
+.note{
+    background-color: white;
+    color:gray;
+    width:18em;
+    height:18em;
+    border: 0.1em solid rgb(202, 202, 202);
+    border-radius: 0.5em;
+    margin: 1em;
+    transition: all 0.3s ease-in-out;
+    @media only screen and (max-width: 500px) {
+        color: black;
+
+    }
+}
+
+.note:hover{
+    transition: all 0.3s ease-in-out;
+    color:black;
+}
+.note-container{
+    margin:0.5em;
+    margin-left:0.9em;
+}
+.note-title{
+    margin:0em;
+    
+    h1{
+        font-weight:0em;
+        margin:0em;
+        margin-top:0.3em;
+        margin-bottom: 0.3em;
+    }
+}
+
+.note-paragraph{
+    margin:0em;
+    p{
+        margin:0em
+    }
+}
+
+.note-test{
+    width:10em;
+        
+}
+
+.note-button{
+    
+    display: inline-block;
+    border-radius: 6px;
+    background-color: $appGreen;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    margin:auto;
+    margin-top:3em;
+    margin-left:2.4em;
+}

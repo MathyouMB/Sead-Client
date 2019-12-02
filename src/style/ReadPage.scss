@@ -1,0 +1,36 @@
+$appGreen: #2FA598;
+.read-page-text{
+    font-size: 3em;
+}
+
+.read-page-buttons{
+    display:flex;
+    margin:auto;
+    justify-content: space-evenly;
+
+}
+
+.read-page-container{
+    margin-top:2em;
+    height:60vh;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.read-button{
+    
+    display: inline-block;
+    border-radius: 6px;
+    background-color: $appGreen;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    
+}
+

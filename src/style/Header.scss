@@ -1,0 +1,14 @@
+$appGreen: #2FA598;
+.header{
+    width:100vw;
+    height:7em;
+    background-color: $appGreen;
+
+    display:flex;
+    justify-content: center;
+}
+
+.header-logo{
+    width:7em;
+    height:7em;
+}

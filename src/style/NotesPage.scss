@@ -1,0 +1,16 @@
+$appGreen: #2FA598;
+
+.notes-page{
+    width:100%;
+    margin-top:2em;
+    height:60vh;
+    display:flex;
+    justify-content: center;
+}
+
+.note-wrapper{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
