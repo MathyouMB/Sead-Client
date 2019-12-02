@@ -17,10 +17,11 @@ const App = (props) => {
 
   return (
     <div className="app">
-      <Header/>
+      
        <Router>
-          <Route path="/login" component={LoginPage} />
-          <Route path="/notes" component={NotesPage}/>
+          <Header/>
+          <Route path="/login" component={() =><LoginPage/>} />
+          <Route path="/notes" component={() =><NotesPage/>}/>
           <Route path="/read" component={ReadPage}/>
        </Router>
     </div>

@@ -11,6 +11,11 @@ $appGreen: #2FA598;
     display:flex;
     flex-direction: column;
     width:100%;
+
+    a{
+        display:flex;
+        justify-content: space-evenly;
+    }
 }
 .login-page-input[type=text] {
     width: 100%;
@@ -38,8 +43,9 @@ $appGreen: #2FA598;
     cursor: pointer;
     font-size: 16px;
     scroll-behavior: smooth;
-    margin:auto;
+    
     margin-top:3em;
+    
 }
 
 .login-page-button:hover{

@@ -3,6 +3,7 @@ import { ApolloClient } from 'apollo-client'
 import { createHttpLink } from 'apollo-link-http'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import {LOGIN} from '../apicalls'
+import { Link } from "react-router-dom";
 import '../style/LoginPage.scss';
 const LoginPage = (props) => {
     let [email, setEmail] = useState("");
@@ -53,7 +54,7 @@ const LoginPage = (props) => {
             <div className="login-page-container-inner">
                 <input className="login-page-input" type="text" placeholder="Email" value={email} onChange={updateEmail}></input>
                 <input className="login-page-input" type="text" placeholder="Password" value={password} onChange={updatePassword}></input>
-                <input className="login-page-button" type="button" value="Login" onClick={clickLogin}></input>
+                <Link to={'/notes/'}><input className="login-page-button" type="button" value="Login" onClick={clickLogin}></input></Link>
             </div>
         </div>
     </div>
