@@ -35,7 +35,7 @@ const NotesPage = (props) => {
             });
         console.log(data);
         console.log(data.data.user.notes)
-        setNotes(data.data.user.notes);
+        setNotes(data.data.user.notes.reverse());
         setLoading(false)
     }
 
