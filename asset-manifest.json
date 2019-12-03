@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Sead/static/css/main.219da5e8.chunk.css",
-    "main.js": "/Sead/static/js/main.ef969699.chunk.js",
-    "main.js.map": "/Sead/static/js/main.ef969699.chunk.js.map",
+    "main.css": "/Sead/static/css/main.c2bef5e9.chunk.css",
+    "main.js": "/Sead/static/js/main.04b5a62d.chunk.js",
+    "main.js.map": "/Sead/static/js/main.04b5a62d.chunk.js.map",
     "runtime-main.js": "/Sead/static/js/runtime-main.e8be3c03.js",
     "runtime-main.js.map": "/Sead/static/js/runtime-main.e8be3c03.js.map",
-    "static/js/2.9190814a.chunk.js": "/Sead/static/js/2.9190814a.chunk.js",
-    "static/js/2.9190814a.chunk.js.map": "/Sead/static/js/2.9190814a.chunk.js.map",
+    "static/js/2.ed581169.chunk.js": "/Sead/static/js/2.ed581169.chunk.js",
+    "static/js/2.ed581169.chunk.js.map": "/Sead/static/js/2.ed581169.chunk.js.map",
     "index.html": "/Sead/index.html",
-    "precache-manifest.0a992be4b4fa7b6e521396364a9388f3.js": "/Sead/precache-manifest.0a992be4b4fa7b6e521396364a9388f3.js",
+    "precache-manifest.1d0922624cc99f6f21b00bd83734ba70.js": "/Sead/precache-manifest.1d0922624cc99f6f21b00bd83734ba70.js",
     "service-worker.js": "/Sead/service-worker.js",
-    "static/css/main.219da5e8.chunk.css.map": "/Sead/static/css/main.219da5e8.chunk.css.map"
+    "static/css/main.c2bef5e9.chunk.css.map": "/Sead/static/css/main.c2bef5e9.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.e8be3c03.js",
-    "static/js/2.9190814a.chunk.js",
-    "static/css/main.219da5e8.chunk.css",
-    "static/js/main.ef969699.chunk.js"
+    "static/js/2.ed581169.chunk.js",
+    "static/css/main.c2bef5e9.chunk.css",
+    "static/js/main.04b5a62d.chunk.js"
   ]
 }
