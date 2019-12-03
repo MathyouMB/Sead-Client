@@ -2,7 +2,7 @@
   "name": "sead",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MathyouMB.github.io/Sead",
+  "homepage": "https://mathyoumb.github.io/Sead",
   "dependencies": {
     "apollo-boost": "^0.4.4",
     "gh-pages": "^2.1.1",
