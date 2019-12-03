@@ -4,6 +4,7 @@ import { createHttpLink } from 'apollo-link-http'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import {USER} from '../apicalls'
 import Note from './Note'
+import { Link } from "react-router-dom";
 import '../style/NotesPage.scss';
 
 const NotesPage = (props) => {
@@ -47,6 +48,7 @@ const NotesPage = (props) => {
 
 
   return (
+    <>
     <div className="notes-page">
        <div className="note-wrapper">
             {loading ? 
@@ -54,10 +56,12 @@ const NotesPage = (props) => {
                 : 
                 notes.map((ele) => <Note id={ele.id} title={ele.title} text={ele.text}/>)
             }
+            <Link to={'/create/'}><input className="note-page-button" type="button" value="Add Note"></input></Link>
     
        </div>
-
     </div>
+    
+    </>
   );
 }
 

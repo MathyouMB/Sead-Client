@@ -53,3 +53,17 @@ query login($email: String!, $password: String!){
   }
 }
 `;
+
+export const CREATENOTE = gql`
+mutation($userId: ID!, $title: String!, $text: String!){
+  createNote(
+    userId: $userId
+    title: $title,
+    text: $text
+  ){
+    id
+    title
+    text
+  }
+}
+`;

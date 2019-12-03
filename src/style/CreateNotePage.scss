@@ -1,0 +1,59 @@
+$appGreen: #2FA598;
+.create-note-page{
+    height:60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.create-note-page-container-inner{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+
+    a{
+        display:flex;
+        justify-content: space-evenly;
+    }
+}
+.create-note-page-input[type=text] {
+    width: 100%;
+    max-width:17em;
+    margin:0.5em;
+    padding: 1.3em;
+    font-size: 1.01em;
+    margin:auto;
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+      
+}
+
+.create-note-page-button{
+    
+    display: inline-block;
+    border-radius: 6px;
+    background-color: $appGreen;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    margin:auto;
+    margin-top:3em;
+   
+    
+}
+
+.create-note-page-button:hover{
+    box-shadow: 0 0 5px $appGreen;
+}
+
+#create-note-page-text{
+    height:20vh;
+    font-size: 1.24em;
+}

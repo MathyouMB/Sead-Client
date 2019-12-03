@@ -9,6 +9,7 @@ import { InMemoryCache } from 'apollo-cache-inmemory'
 import LoginPage from './components/LoginPage'
 import NotesPage from './components/NotesPage'
 import ReadPage from './components/ReadPage'
+import CreateNotePage from './components/CreateNotePage'
 import Header from './components/Header'
 
 const App = (props) => {
@@ -22,6 +23,7 @@ const App = (props) => {
           {id != -1 ? "" : <Redirect to="/login/" />}
           <Header/>
           <Route path="/login" component={() =><LoginPage userID={id} setUserID={setId}/>} />
+          <Route path="/create" component={() =><CreateNotePage userID={id}/>} />
           <Route path="/notes" component={() =><NotesPage userID={id}/>}/>
           <Route path="/read" component={ReadPage}/>
        </Router>

@@ -14,3 +14,23 @@ $appGreen: #2FA598;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+.note-page-button{
+    
+    display: inline-block;
+    border-radius: 6px;
+    background-color: $appGreen;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    margin:auto;
+    margin-top:3em;
+
+}
