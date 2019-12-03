@@ -6,4 +6,8 @@ A study app that will break up your lazily written notes and return them in an e
 
 I'm currently remaking my previous Sead project using React, GraphQL, and Ruby on Rails.
 
+Previous Project:
+https://github.com/MathyouMB/Sead
+
+API:
 https://github.com/MathyouMB/Sead-API
