@@ -29,7 +29,7 @@ const NotesPage = (props) => {
             .query({
                 query: USER,
                 variables: {
-                    "id": 1
+                    "id": props.userID
                   }
             });
         console.log(data);
@@ -39,7 +39,7 @@ const NotesPage = (props) => {
     }
 
     useEffect(() => {
-        if(loading){
+        if(loading && props.userID != -1){
             queryData();
         }  
     })

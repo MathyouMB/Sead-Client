@@ -32,6 +32,9 @@ const LoginPage = (props) => {
                   }
             });
         console.log(data);
+        if(data.hasOwnProperty('data')){
+            props.setId(data.data.login.id)
+        }
     }
 
     const updateEmail = (event) => {
