@@ -6,8 +6,8 @@ import '../style/Note.scss';
 const Note = (props) => {
 
   const cutShortText = (text) =>{
-      if(text.length>310){
-        return text.slice(0, 310)+"...";
+      if(text.length>110){
+        return text.slice(0, 110)+"...";
       }else{
         return(text)
       }
