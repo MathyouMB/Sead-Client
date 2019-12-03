@@ -21,7 +21,7 @@ const App = (props) => {
        <Router>
           {id != -1 ? "" : <Redirect to="/login/" />}
           <Header/>
-          <Route path="/login" component={() =><LoginPage userID={id} setId={setId}/>} />
+          <Route path="/login" component={() =><LoginPage userID={id} setUserID={setId}/>} />
           <Route path="/notes" component={() =><NotesPage userID={id}/>}/>
           <Route path="/read" component={ReadPage}/>
        </Router>
